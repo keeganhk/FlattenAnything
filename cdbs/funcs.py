@@ -165,7 +165,7 @@ def build_colormap(num_colors):
 
 def rescale_normals(normals, scale=1.0):
     # normals: (num_pts, 3)
-    rescaled_normals = normals / np.linalg.norm(normals, ord=2, axis=-1, keepdims=True) * scale
+    rescaled_normals = normals / (np.linalg.norm(normals, ord=2, axis=-1, keepdims=True) + 1e-8) * scale
     return rescaled_normals
 
 
