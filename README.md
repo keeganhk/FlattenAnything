@@ -1,4 +1,4 @@
-# Flatten Anything: Unsupervised Neural Surface Parameterization
+# Flatten Anything: Unsupervised Neural Surface Parameterization (NeurIPS-2024)
 
 
 
