@@ -2,9 +2,9 @@
 
 This is the official implementation of **[[Flatten Anything Model (FAM)](https://arxiv.org/abs/2405.14633)]**, an unsupervised neural architecture for global free-boundary surface parameterization.
 
-<p align="center"> <img src="asset/examples.png" width="65%"> </p>
+<p align="center"> <img src="asset/examples.png" width="75%"> </p>
 
-<p align="center"> <img src="asset/workflow.png" width="65%"> </p>
+<p align="center"> <img src="asset/workflow.png" width="75%"> </p>
 
 
 ### Configuration
@@ -32,7 +32,7 @@ For unoriented point clouds, you can simply input ```normals=None``` into the ``
 ```bash
 python test_mesh.py "./example/input_model/test_model.obj" "./exported/test_model/fam.pth" "./example/checker_map/20x20.png" "./exported/test_model" "mesh_verts"
 ```
-You can also perform testing on points sampled from mesh by specifying the ```input_format``` and ```"--N_poisson_approx``` arguments.
+You can also perform testing on points sampled from mesh by specifying the ```input_format``` and ```--N_poisson_approx``` arguments.
 
 ### Citation
 
