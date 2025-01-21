@@ -1,0 +1,8 @@
+Cython
+jupyter
+matplotlib
+open3d
+trimesh
+point-cloud-utils
+pymeshlab==2022.2.post3
+git+https://github.com/facebookresearch/pytorch3d.git@stable
