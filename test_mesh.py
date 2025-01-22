@@ -10,7 +10,7 @@ def main():
     parser.add_argument("load_check_map_path", type=str)
     parser.add_argument("export_folder", type=str)
     parser.add_argument("input_format", type=str, choices=["mesh_verts", "sampled_points"])
-    parser.add_argument("--N_poisson_approx", type=int, default=100000, help="number of points fed into FAM during each iteration")
+    parser.add_argument("--N_poisson_approx", type=int, default=100000)
     args = parser.parse_args()
     
     suffix = f"tested_on_{args.input_format}"
