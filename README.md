@@ -6,6 +6,10 @@ This is the official implementation of **[[Flatten Anything Model (FAM)](https:/
 
 <p align="center"> <img src="asset/workflow.png" width="75%"> </p>
 
+We have previously conducted a series of works on **regular 3D geometry representations**. Please refer to the following:
+- **[RegGeoNet](https://github.com/keeganhk/RegGeoNet)** for large-scale 3D point clouds.
+- **[Flattening-Net](https://github.com/keeganhk/Flattening-Net)** for feed-forward point cloud structurization.
+- **[SPCV](https://github.com/ZENGYIMING-EAMON/SPCV)** for dynamic 3D point cloud sequences.
 
 ### Configuration
 
