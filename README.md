@@ -11,6 +11,8 @@ We have previously conducted a series of works on **regular 3D geometry represen
 - **[Flattening-Net](https://github.com/keeganhk/Flattening-Net)** for feed-forward point cloud structurization.
 - **[SPCV](https://github.com/ZENGYIMING-EAMON/SPCV)** for dynamic 3D point cloud sequences.
 
+More recently, FAM is further extended for flexible multi-chart local parameterization. Please refer to **[FlexPara](https://github.com/AidenZhao/FlexPara)**.
+
 ### Configuration
 
 ```bash
